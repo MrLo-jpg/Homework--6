@@ -1,7 +1,7 @@
 public class Main {
     public static void main(String[] args) {
         //Задача 1....
-        String fistName = "Ivan";
+        String firstName = "Ivan";
         String middleName = "Ivanovich";
         String lastName = "Ivanov";
         String fullName = "Ivanov" + " " + "Ivan" + " " + "Ivanovich";
@@ -17,12 +17,9 @@ public class Main {
 
         //Задача 3....
         fullName = "Иванов Семён Семёнович";
-        String fullNamereplace = fullName.replace("ё" , "е");
+        String fullNamereplace = fullName.replace("ё", "е");
         System.out.println(fullNamereplace);
         System.out.println();
-
-
-
 
 
     }
