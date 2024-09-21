@@ -1,6 +1,6 @@
 public class Main {
     public static void main(String[] args) {
-        //Задача 1.
+        //Задача 1....
         String fistName = "Ivan";
         String middleName = "Ivanovich";
         String lastName = "Ivanov";
@@ -9,13 +9,13 @@ public class Main {
         System.out.println();
         System.out.println();
 
-        // Задача 2.
+        // Задача 2....
         String fullNameUpperCase = fullName.toUpperCase();
         System.out.println("Данные Ф. И. О. сотрудника для заполнения отчета — "
                 + fullNameUpperCase);
         System.out.println();
 
-        //Задача 3.
+        //Задача 3....
         fullName = "Иванов Семён Семёнович";
         String fullNamereplace = fullName.replace("ё" , "е");
         System.out.println(fullNamereplace);
